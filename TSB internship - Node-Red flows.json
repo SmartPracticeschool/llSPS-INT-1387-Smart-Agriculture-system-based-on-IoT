@@ -1,0 +1,1038 @@
+[
+    {
+        "id": "b94ba96e.c6c128",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "899aeaca.107bd8",
+        "type": "tab",
+        "label": "Flow 2",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "88be0975.cf30b8",
+        "type": "ibmiot",
+        "z": "",
+        "name": "a-6ad3r9-1nxxpar0sn",
+        "keepalive": "60",
+        "serverName": "",
+        "cleansession": true,
+        "appId": "",
+        "shared": false
+    },
+    {
+        "id": "160c9151.02698f",
+        "type": "ui_group",
+        "z": "",
+        "name": "Sensor Data",
+        "tab": "40124823.baf798",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false
+    },
+    {
+        "id": "40124823.baf798",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Home",
+        "icon": "dashboard",
+        "order": 1,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "67d26817.5fd2f8",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-dark",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": true,
+                "reset": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#097479",
+                    "value": "#097479",
+                    "edited": true
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#000000",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#0eb8c0",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#555555",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#eeeeee",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#097479",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#333333",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey"
+            }
+        },
+        "site": {
+            "name": "Smart Agriculture System ( TSB )",
+            "hideToolbar": "false",
+            "allowSwipe": "true",
+            "lockMenu": "true",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 100,
+                "gy": 5,
+                "cx": 6,
+                "cy": 6,
+                "px": 5,
+                "py": 5
+            }
+        }
+    },
+    {
+        "id": "42cfb95.e0d1448",
+        "type": "ui_group",
+        "z": "",
+        "name": "Current Data",
+        "tab": "8da8f400.d6b648",
+        "order": 1,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "f837107e.f3291",
+        "type": "ui_group",
+        "z": "",
+        "name": "Motor ",
+        "tab": "40124823.baf798",
+        "order": 2,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "8da8f400.d6b648",
+        "type": "ui_tab",
+        "z": "",
+        "name": "Open Weather Map Info",
+        "icon": "dashboard",
+        "order": 2,
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "5e0b018b.34c58",
+        "type": "ui_group",
+        "z": "",
+        "name": "Forecasting (6 hrs)",
+        "tab": "8da8f400.d6b648",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "7ccd9da7.7dc2f4",
+        "type": "ui_spacer",
+        "name": "spacer",
+        "group": "31436176.84deae",
+        "order": 3,
+        "width": "3",
+        "height": 1
+    },
+    {
+        "id": "f5742472.32b808",
+        "type": "ui_group",
+        "z": "",
+        "name": "Forecasting (12 hrs)",
+        "tab": "8da8f400.d6b648",
+        "order": 3,
+        "disp": true,
+        "width": 7,
+        "collapse": false
+    },
+    {
+        "id": "36606d5b.a486a2",
+        "type": "ibmiot in",
+        "z": "b94ba96e.c6c128",
+        "authentication": "apiKey",
+        "apiKey": "88be0975.cf30b8",
+        "inputType": "evt",
+        "logicalInterface": "",
+        "ruleId": "",
+        "deviceId": "SAS-D-001",
+        "applicationId": "",
+        "deviceType": "IoT_Device",
+        "eventType": "Data",
+        "commandType": "data",
+        "format": "json",
+        "name": "IBM IoT",
+        "service": "registered",
+        "allDevices": "",
+        "allApplications": "",
+        "allDeviceTypes": false,
+        "allLogicalInterfaces": "",
+        "allEvents": true,
+        "allCommands": true,
+        "allFormats": "",
+        "qos": 0,
+        "x": 150,
+        "y": 180,
+        "wires": [
+            [
+                "f2259ea.ff07f6",
+                "ab23893.4004378",
+                "ec8b5a2d.4faf28"
+            ]
+        ]
+    },
+    {
+        "id": "7023c024.713ab",
+        "type": "debug",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 750,
+        "y": 180,
+        "wires": []
+    },
+    {
+        "id": "f2259ea.ff07f6",
+        "type": "function",
+        "z": "b94ba96e.c6c128",
+        "name": "Temperature",
+        "func": "msg.payload=msg.payload.d.temperature\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 370,
+        "y": 60,
+        "wires": [
+            [
+                "7023c024.713ab",
+                "10b6e4c9.7e999b"
+            ]
+        ]
+    },
+    {
+        "id": "ab23893.4004378",
+        "type": "function",
+        "z": "b94ba96e.c6c128",
+        "name": "Humidity",
+        "func": "msg.payload=msg.payload.d.humidity\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 360,
+        "y": 240,
+        "wires": [
+            [
+                "7023c024.713ab",
+                "840798d0.67c488"
+            ]
+        ]
+    },
+    {
+        "id": "10b6e4c9.7e999b",
+        "type": "ui_gauge",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "group": "160c9151.02698f",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#42fdef",
+            "#ffe81a",
+            "#ca3838"
+        ],
+        "seg1": "20",
+        "seg2": "45",
+        "x": 750,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "840798d0.67c488",
+        "type": "ui_gauge",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "group": "160c9151.02698f",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Humidity",
+        "label": "%",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "80",
+        "colors": [
+            "#f2521c",
+            "#d09c0b",
+            "#3b74bf"
+        ],
+        "seg1": "",
+        "seg2": "",
+        "x": 740,
+        "y": 240,
+        "wires": []
+    },
+    {
+        "id": "eaab233d.697b7",
+        "type": "ibmiot out",
+        "z": "b94ba96e.c6c128",
+        "authentication": "apiKey",
+        "apiKey": "88be0975.cf30b8",
+        "outputType": "cmd",
+        "deviceId": "SAS-D-002",
+        "deviceType": "IoT_Hardware",
+        "eventCommandType": "Home",
+        "format": "json",
+        "data": "data",
+        "qos": 0,
+        "name": "IBM IoT",
+        "service": "registered",
+        "x": 680,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "b5ef9326.4bcc5",
+        "type": "ui_button",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "group": "f837107e.f3291",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "label": "Motor ON",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\" : \"Motor On\"}",
+        "payloadType": "json",
+        "topic": "",
+        "x": 300,
+        "y": 340,
+        "wires": [
+            [
+                "eaab233d.697b7",
+                "c8dac54.e5f6438",
+                "bc17bbf6.dd2a68"
+            ]
+        ]
+    },
+    {
+        "id": "6c95c8ad.4a9378",
+        "type": "ui_button",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "group": "f837107e.f3291",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "label": "Motor OFF",
+        "tooltip": "",
+        "color": "",
+        "bgcolor": "",
+        "icon": "",
+        "payload": "{\"command\" : \"Motor Off\"}",
+        "payloadType": "json",
+        "topic": "",
+        "x": 290,
+        "y": 540,
+        "wires": [
+            [
+                "eaab233d.697b7",
+                "c8dac54.e5f6438",
+                "bc17bbf6.dd2a68"
+            ]
+        ]
+    },
+    {
+        "id": "ecc44903.e8fda8",
+        "type": "http request",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": false,
+        "url": "http://api.openweathermap.org/data/2.5/weather?q=london,uk&appid=e95f66ca81ccd7e586bb09bea977eae4",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "authType": "",
+        "x": 170,
+        "y": 160,
+        "wires": [
+            [
+                "b587b3c1.4c0cf",
+                "78e86592.1228fc",
+                "119d3630.4b05ca",
+                "87db12e.3a587f",
+                "e887e112.53e7"
+            ]
+        ]
+    },
+    {
+        "id": "199dd50a.e6ca3b",
+        "type": "debug",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 750,
+        "y": 160,
+        "wires": []
+    },
+    {
+        "id": "e5212021.0c6be",
+        "type": "inject",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 190,
+        "y": 320,
+        "wires": [
+            [
+                "ecc44903.e8fda8",
+                "be436cda.3fdac"
+            ]
+        ]
+    },
+    {
+        "id": "b587b3c1.4c0cf",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Temperature ",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string($round((msg.payload.main.temp - 273.15),2)) & \" °C\"\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 60,
+        "wires": [
+            [
+                "199dd50a.e6ca3b",
+                "ec086d03.b5d24"
+            ]
+        ]
+    },
+    {
+        "id": "78e86592.1228fc",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Humidity %",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload.main.humidity) & \"%\"\t",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 100,
+        "wires": [
+            [
+                "199dd50a.e6ca3b",
+                "2e8bceef.176a22"
+            ]
+        ]
+    },
+    {
+        "id": "119d3630.4b05ca",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Pressure",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string($round((payload.main.pressure/1.3232),2)) & \" mmhg\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 440,
+        "y": 260,
+        "wires": [
+            [
+                "199dd50a.e6ca3b",
+                "36992f17.7c092"
+            ]
+        ]
+    },
+    {
+        "id": "ec086d03.b5d24",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "42cfb95.e0d1448",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Temperature",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 60,
+        "wires": []
+    },
+    {
+        "id": "2e8bceef.176a22",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "42cfb95.e0d1448",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Humidity",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 960,
+        "y": 100,
+        "wires": []
+    },
+    {
+        "id": "934bee11.2ee52",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "42cfb95.e0d1448",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Weather",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 960,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "36992f17.7c092",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "42cfb95.e0d1448",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Pressure",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 960,
+        "y": 260,
+        "wires": []
+    },
+    {
+        "id": "c8dac54.e5f6438",
+        "type": "debug",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 690,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "bc17bbf6.dd2a68",
+        "type": "ui_text",
+        "z": "b94ba96e.c6c128",
+        "group": "f837107e.f3291",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Motor Status",
+        "format": "{{msg.payload.command}}",
+        "layout": "row-spread",
+        "x": 690,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "1ebe4282.4ea2cd",
+        "type": "inject",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "x": 290,
+        "y": 440,
+        "wires": [
+            [
+                "6c95c8ad.4a9378"
+            ]
+        ]
+    },
+    {
+        "id": "ec8b5a2d.4faf28",
+        "type": "function",
+        "z": "b94ba96e.c6c128",
+        "name": "Object Temperature",
+        "func": "msg.payload=msg.payload.d.objectTemp\nreturn msg;",
+        "outputs": 1,
+        "noerr": 0,
+        "x": 390,
+        "y": 120,
+        "wires": [
+            [
+                "7023c024.713ab",
+                "7a14c09c.f14c5"
+            ]
+        ]
+    },
+    {
+        "id": "7a14c09c.f14c5",
+        "type": "ui_gauge",
+        "z": "b94ba96e.c6c128",
+        "name": "",
+        "group": "160c9151.02698f",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Soil Temperature",
+        "label": "°C",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "60",
+        "colors": [
+            "#0ecdca",
+            "#e7bc23",
+            "#ca3838"
+        ],
+        "seg1": "15",
+        "seg2": "45",
+        "x": 770,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "be436cda.3fdac",
+        "type": "openweathermap",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "wtype": "forecast",
+        "lon": "",
+        "lat": "",
+        "city": "london",
+        "country": "uk",
+        "language": "en",
+        "x": 170,
+        "y": 580,
+        "wires": [
+            [
+                "565ea636.5fcb28",
+                "7a4d9f5e.ca80f",
+                "f7d815ee.c16a78",
+                "49e8c85.a543e38",
+                "2c5a35db.a14e5a"
+            ]
+        ]
+    },
+    {
+        "id": "f7d815ee.c16a78",
+        "type": "debug",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 730,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "565ea636.5fcb28",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "weather - 6 hours",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload[2].weather[0].main) & \" - \" & $string(msg.payload[2].weather[0].description)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 420,
+        "wires": [
+            [
+                "61935ffe.4eb2",
+                "b04ebe80.e63d4"
+            ]
+        ]
+    },
+    {
+        "id": "61935ffe.4eb2",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "5e0b018b.34c58",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Weather",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 960,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "b04ebe80.e63d4",
+        "type": "debug",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 750,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "11845cd.87c3ca3",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "5e0b018b.34c58",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Wind Speed",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "8430ea9.45caf18",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "42cfb95.e0d1448",
+        "order": 5,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Wind Speed",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "87db12e.3a587f",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Wind Speed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload.wind.speed) & \" m/s\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 300,
+        "wires": [
+            [
+                "8430ea9.45caf18",
+                "199dd50a.e6ca3b"
+            ]
+        ]
+    },
+    {
+        "id": "7a4d9f5e.ca80f",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Wind Speed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload[2].wind.speed) & \" m/s\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 540,
+        "wires": [
+            [
+                "11845cd.87c3ca3",
+                "b04ebe80.e63d4"
+            ]
+        ]
+    },
+    {
+        "id": "e887e112.53e7",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Weather + Des",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload.weather[0].main) & \" - \" & $string(msg.payload.weather[0].description)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 460,
+        "y": 220,
+        "wires": [
+            [
+                "199dd50a.e6ca3b",
+                "934bee11.2ee52"
+            ]
+        ]
+    },
+    {
+        "id": "49e8c85.a543e38",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "weather - 12 hours",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload[4].weather[0].main) & \" - \" & $string(msg.payload[4].weather[0].description)",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 470,
+        "y": 620,
+        "wires": [
+            [
+                "f39d7b0.cc48a88",
+                "522b6ab3.c63d24"
+            ]
+        ]
+    },
+    {
+        "id": "f39d7b0.cc48a88",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "f5742472.32b808",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Weather",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 960,
+        "y": 620,
+        "wires": []
+    },
+    {
+        "id": "522b6ab3.c63d24",
+        "type": "debug",
+        "z": "899aeaca.107bd8",
+        "name": "",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "x": 750,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "9317eb9c.77d848",
+        "type": "ui_text",
+        "z": "899aeaca.107bd8",
+        "group": "f5742472.32b808",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "",
+        "label": "Wind Speed",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "x": 970,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "2c5a35db.a14e5a",
+        "type": "change",
+        "z": "899aeaca.107bd8",
+        "name": "Wind Speed",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "$string(msg.payload[4].wind.speed) & \" m/s\"",
+                "tot": "jsonata"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 450,
+        "y": 740,
+        "wires": [
+            [
+                "9317eb9c.77d848",
+                "522b6ab3.c63d24"
+            ]
+        ]
+    }
+]
