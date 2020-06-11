@@ -11,4 +11,5 @@ There's a json file named "TSB internship - Node-Red flows.json" which include m
 I've also added a project report and project scope document in pdf form.
 
 Also, there's a Powerpoint Presentation added by the name "PPT Smart Agriculture System using IoT.pptx"
-And the explanation video's link is provided in the "Presentation Explanation Video" file.
+And the explanation video's link is provided in the "Presentation Explanation Video" file, You can also see it here
+"https://youtu.be/lNBXIkYi9YQ"
