@@ -5,6 +5,9 @@ Hi there,
 
 So this repository is all about my work realted to the project "Smart Agriculture system based on IoT"
 
+To get a better understanding of my project, go to the youtube link below:
+
+
 I've added various screenshots taken at various steps in my progress, of the resources I've used.
 There's a json file named "TSB internship - Node-Red flows.json" which include my node-red's flow code which I've used to build the UI 
 
