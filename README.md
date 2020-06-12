@@ -6,7 +6,7 @@ Hi there,
 So this repository is all about my work realted to the project "Smart Agriculture system based on IoT"
 
 To get a better understanding of my project, go to the youtube link below:
-"https://www.youtube.com/watch?v=0YPQlTzPh6w"
+"https://www.youtube.com/watch?v=ZtQXnB1ggug"
 
 
 I've added various screenshots taken at various steps in my progress, of the resources I've used.
