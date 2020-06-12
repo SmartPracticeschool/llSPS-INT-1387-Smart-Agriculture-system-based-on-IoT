@@ -1,5 +1,0 @@
-Organisation ID : 6ad3r9
-Device type	: IoT_Device
-Device Id	: SAS-D-001
-Authentication Method : use-token-auth
-Authentication Token  : arS*dUXspB??eRSH3v
